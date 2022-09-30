@@ -60,6 +60,8 @@ export default function RegisterForm() {
     }
   };
 
+  
+
   return (
     <FormProvider methods={methods} onSubmit={handleSubmit(onSubmit)}>
       <Stack spacing={3}>
